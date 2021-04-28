@@ -1,0 +1,112 @@
+# Config
+rss:            # link
+favicon: https://i.loli.net/2017/11/26/5a19c0b50432e.png
+blog_logo: https://mengx.io/content/templates/easter/img/ava.gif
+header_image: https://p.pstatp.com/origin/138520000919699b121de
+bio: This is a demo
+post_toc: true
+
+# Keywords
+keywords: hexo, casper, ghost, theme
+
+# Menu
+menu:
+  关 于: /about
+  归 档: /archives
+  分 类: /categories
+  # you can add here
+
+# author
+author_image: https://www.ninaner.com/wp-content/uploads/2016/04/10413563_b1991ee881ba5dfa3264a8b717947ee3_170.jpg  # link
+author_bio: 分享 互助 供应
+author_location: ShenZhen
+author_url: https://timiy.cn
+
+# Social Links
+social:
+  weibo: https://weibo.com/xzhih
+  github: https://github.com/xzhih
+  twitter: https://twitter.com
+  facebook: https://facebook
+  telegram:
+  bilibili: 
+  youtube: 
+  # You only can use that I have added, I will keep adding
+
+# Footer Links
+footer_text: 
+  # title: link
+  # 粤ICP备xxxxxxx号-x: http://www.miitbeian.gov.cn
+  # 粤公网安备xxxxxxx号: http://www.beian.gov.cn
+
+# Widget
+widgets:
+  about: true #关于作者
+  recent_posts: false #最新文章
+  category: true #分类
+  tagcloud: true #tag标签
+  sidebar: true #右边栏
+  # This is a simple theme, I think 3 is enough.
+
+sidebar:
+  themeinfo: Timiy QQ机器人
+  themeimg: https://www.ninaner.com/wp-content/uploads/2017/11/19219463253870876.jpg
+  AD1title: 广告1标题
+  AD1IMG: https://img.iplaysoft.com/axdres/sidebar/jianying/jianying_v1.png
+  AD1URL: https://www.baidu.com
+  #-----------
+  AD2title: 广告1标题
+  AD2IMG: https://img.iplaysoft.com/axdres/sidebar/jianying/jianying_v1.png
+  AD2URL: https://www.baidu.com
+  #-----------
+  AD3title: 广告1标题
+  AD3IMG: https://img.iplaysoft.com/axdres/sidebar/jianying/jianying_v1.png
+  AD3URL: https://www.baidu.com
+
+
+# Post page fload header
+floadheader: false
+
+# Gallery
+# https://github.com/dimsemenov/PhotoSwipe
+photoswipe: true
+
+# LazyLoad
+# home page has enabled, this value is to post page
+# https://github.com/dinbror/blazy
+lazyload: true
+
+# Local Search
+local_search: true
+
+# Comment
+# https://valine.js.org
+comment: true
+valine:
+  notify: false # mail notifier , https://github.com/xCss/Valine/wiki 
+  verify: false # Verification code
+  appId: F8OGTiSSAtJq9fJvy1wc48pY-gzGzoHsz # your leancloud application appid
+  appKey: 2UfTVp32sete676LdfOgPqzm # your leancloud application appkey
+  placeholder: Just go go # comment box placeholder
+  pageSize: 10 # pagination size
+  avatar: mm # gravatar style
+  visitor: true # page view record
+
+leancloud_visitors:
+  enable: true # 这里要设置成 true
+  app_id: F8OGTiSSAtJq9fJvy1wc48pY-gzGzoHsz
+  app_key: 2UfTVp32sete676LdfOgPqzm
+
+# PWA
+# you need create a manifest.json file in hexo's source folder
+manifest: false
+service_workers: false
+
+navColor: '3c484e'
+
+# Baidu Push
+baidu: false
+
+# Google Analytics
+googleAnalytics: false
+GA_TRACKING_ID: UA-XXXXXXXXXX-1
