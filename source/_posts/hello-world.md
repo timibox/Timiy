@@ -1,5 +1,5 @@
 ---
-title: Hello World
+title: Hello hexo
 comments.valine: 10
 categories: 
 - [Hexo]
