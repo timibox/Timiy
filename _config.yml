@@ -104,5 +104,5 @@ theme: hexo-casper
 deploy:
   type: git
   repository: git@github.com:timibox/Timiy.git
-  branch: master
+  branch: hexo
   
