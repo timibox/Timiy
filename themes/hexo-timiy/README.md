@@ -90,7 +90,7 @@ hexo new page about
 
 ## Configuration
 
-Edit `themes/hexo-casper/_config.yml` and set up what you want to show
+Edit `themes/timiy-hexo/_config.yml` and set up what you want to show
 
 ```yaml
 # Config
