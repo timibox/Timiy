@@ -1,3 +1,2 @@
 
-console.log("%c 【Timiy】 %c https://timiy.cn", "color:red","","color:orange;font-weight:bold")
-console.log("%c 分享 互助 供应 - 为创造而生 ")
+console.log("【Timiy】 https://timiy.cn \n分享 互助 共赢 - 为创造而生")
