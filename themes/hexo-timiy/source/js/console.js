@@ -1,3 +1,3 @@
 
-console.log("https://timiy.cn \n分享 互助 共赢 - 为创造而生")
-console.log("%c ", "background: url(https://img.bizhiku.net/uploads/2020/1118/1-20111P92024.jpg?x-oss-process=style/w_870-h_870) no-repeat center;padding-left:640px;padding-bottom: 242px;")
+console.log("Timiy | QQ:4370142  https://timiy.cn\n分享 互助 共赢 - 为创造而生\n\n机器人定制开发联系 https://wpa.qq.com/msgrd?v=3&uin=4370142&site=qq&menu=yes")
+console.log("%c ", "background: url(https://cdn.jsdelivr.net/gh/htmlmi/cdn@latest/2021/04/29/461de8f76409f423f430db5096891df2.png) no-repeat center;padding-left:640px;padding-bottom: 242px;")
