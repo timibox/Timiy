@@ -1,0 +1,348 @@
+{
+    "Emoji": {
+        "type": "emoji",
+        "container": [
+            {
+                "icon": "😂",
+                "text": "",
+                "write": "😂"
+            },
+            {
+                "icon": "😅",
+                "text": "",
+                "write": "😅"
+            },
+            {
+                "icon": "😊",
+                "text": "",
+                "write": "😊"
+            },
+            {
+                "icon": "😌",
+                "text": "",
+                "write": "😌"
+            },
+            {
+                "icon": "😍",
+                "text": "",
+                "write": "😍"
+            },
+            {
+                "icon": "😘 ",
+                "text": "",
+                "write": "😘 "
+            },
+            {
+                "icon": "😜",
+                "text": "",
+                "write": "😜"
+            },
+            {
+                "icon": "😝",
+                "text": "",
+                "write": "😝"
+            },
+            {
+                "icon": "😏",
+                "text": "",
+                "write": "😏"
+            },
+            {
+                "icon": "😒",
+                "text": "",
+                "write": "😒"
+            },
+            {
+                "icon": "😳 ",
+                "text": "",
+                "write": "😳 "
+            },
+            {
+                "icon": "😡",
+                "text": "",
+                "write": "😡"
+            },
+            {
+                "icon": "😔",
+                "text": "",
+                "write": "😔"
+            },
+            {
+                "icon": "😫",
+                "text": "",
+                "write": "😫"
+            },
+            {
+                "icon": "😱",
+                "text": "",
+                "write": "😱"
+            },
+            {
+                "icon": "😭",
+                "text": "",
+                "write": "😭"
+            },
+            {
+                "icon": "💩",
+                "text": "",
+                "write": "💩"
+            },
+            {
+                "icon": "👻",
+                "text": "",
+                "write": "👻"
+            },
+            {
+                "icon": "🙌",
+                "text": "",
+                "write": "🙌"
+            },
+            {
+                "icon": "👍",
+                "text": "",
+                "write": "👍"
+            },
+            {
+                "icon": "👫",
+                "text": "",
+                "write": "👫"
+            },
+            {
+                "icon": "👬",
+                "text": "",
+                "write": "👬"
+            },
+            {
+                "icon": "😶",
+                "text": "",
+                "write": "😶"
+            },
+            {
+                "icon": "🙏",
+                "text": "",
+                "write": "🙏"
+            },
+            {
+                "icon": "💊",
+                "text": "",
+                "write": "💊"
+            },
+            {
+                "icon": "🐸",
+                "text": "",
+                "write": "🐸"
+            },
+            {
+                "icon": "🔫",
+                "text": "",
+                "write": "🔫"
+            },
+            {
+                "icon": "🍦",
+                "text": "",
+                "write": "🍦"
+            },
+            {
+                "icon": "🍉",
+                "text": "",
+                "write": "🍉"
+            },
+            {
+                "icon": "😣",
+                "text": "",
+                "write": "😣"
+            }
+        ]
+    }
+    "贴吧": {
+        "type": "image",
+        "container": [
+            {
+                "icon": "<img src='https://cdn.jsdelivr.net/gh/moezx/cdn@3.1.9/img/Sakura/images/smilies/icon_tongue.gif' ></img>",
+                "text": "Doge",
+                "raw": ":[doge]",
+                "write": "[img]https://cdn.jsdelivr.net/gh/moezx/cdn@3.1.9/img/Sakura/images/smilies/icon_tongue.gif[/img]"
+            },
+            {
+                "icon": "<img src='https://cdn.jsdelivr.net/gh/moezx/cdn@3.1.9/img/Sakura/images/smilies/icon_theblackline.gif' ></img>",
+                "text": "Doge",
+                "raw": ":[doge]",
+                "write": "[img]https://cdn.jsdelivr.net/gh/moezx/cdn@3.1.9/img/Sakura/images/smilies/icon_theblackline.gif[/img]"
+            },
+            {
+                "icon": "<img src='https://cdn.jsdelivr.net/gh/moezx/cdn@3.1.9/img/Sakura/images/smilies/icon_tear.gif' ></img>",
+                "text": "Doge",
+                "raw": ":[doge]",
+                "write": "[img]https://cdn.jsdelivr.net/gh/moezx/cdn@3.1.9/img/Sakura/images/smilies/icon_tear.gif[/img]"
+            },
+            {
+                "icon": "<img src='https://cdn.jsdelivr.net/gh/moezx/cdn@3.1.9/img/Sakura/images/smilies/icon_surprised.gif' ></img>",
+                "text": "Doge",
+                "raw": ":[doge]",
+                "write": "[img]https://cdn.jsdelivr.net/gh/moezx/cdn@3.1.9/img/Sakura/images/smilies/icon_surprised.gif[/img]"
+            },
+            {
+                "icon": "<img src='https://cdn.jsdelivr.net/gh/moezx/cdn@3.1.9/img/Sakura/images/smilies/icon_surprised2.gif' ></img>",
+                "text": "Doge",
+                "raw": ":[doge]",
+                "write": "[img]https://cdn.jsdelivr.net/gh/moezx/cdn@3.1.9/img/Sakura/images/smilies/icon_surprised2.gif[/img]"
+            },
+            {
+                "icon": "<img src='https://cdn.jsdelivr.net/gh/moezx/cdn@3.1.9/img/Sakura/images/smilies/icon_spray.gif' ></img>",
+                "text": "Doge",
+                "raw": ":[doge]",
+                "write": "[img]https://cdn.jsdelivr.net/gh/moezx/cdn@3.1.9/img/Sakura/images/smilies/icon_spray.gif[/img]"
+            },
+            {
+                "icon": "<img src='https://cdn.jsdelivr.net/gh/moezx/cdn@3.1.9/img/Sakura/images/smilies/icon_spit.gif' ></img>",
+                "text": "Doge",
+                "raw": ":[doge]",
+                "write": "[img]https://cdn.jsdelivr.net/gh/moezx/cdn@3.1.9/img/Sakura/images/smilies/icon_spit.gif[/img]"
+            },
+            {
+                "icon": "<img src='https://cdn.jsdelivr.net/gh/moezx/cdn@3.1.9/img/Sakura/images/smilies/icon_smilingeyes.gif' ></img>",
+                "text": "Doge",
+                "raw": ":[doge]",
+                "write": "[img]https://cdn.jsdelivr.net/gh/moezx/cdn@3.1.9/img/Sakura/images/smilies/icon_smilingeyes.gif[/img]"
+            },
+            {
+                "icon": "<img src='https://cdn.jsdelivr.net/gh/moezx/cdn@3.1.9/img/Sakura/images/smilies/icon_shui.gif' ></img>",
+                "text": "Doge",
+                "raw": ":[doge]",
+                "write": "[img]https://cdn.jsdelivr.net/gh/moezx/cdn@3.1.9/img/Sakura/images/smilies/icon_shui.gif[/img]"
+            },
+            {
+                "icon": "<img src='https://cdn.jsdelivr.net/gh/moezx/cdn@3.1.9/img/Sakura/images/smilies/icon_shame.gif' ></img>",
+                "text": "Doge",
+                "raw": ":[doge]",
+                "write": "[img]https://cdn.jsdelivr.net/gh/moezx/cdn@3.1.9/img/Sakura/images/smilies/icon_shame.gif[/img]"
+            },
+            {
+                "icon": "<img src='https://cdn.jsdelivr.net/gh/moezx/cdn@3.1.9/img/Sakura/images/smilies/icon_se.gif' ></img>",
+                "text": "Doge",
+                "raw": ":[doge]",
+                "write": "[img]https://cdn.jsdelivr.net/gh/moezx/cdn@3.1.9/img/Sakura/images/smilies/icon_se.gif[/img]"
+            },
+            {
+                "icon": "<img src='https://cdn.jsdelivr.net/gh/moezx/cdn@3.1.9/img/Sakura/images/smilies/icon_rmb.gif' ></img>",
+                "text": "Doge",
+                "raw": ":[doge]",
+                "write": "[img]https://cdn.jsdelivr.net/gh/moezx/cdn@3.1.9/img/Sakura/images/smilies/icon_rmb.gif[/img]"
+            },
+            {
+                "icon": "<img src='https://cdn.jsdelivr.net/gh/moezx/cdn@3.1.9/img/Sakura/images/smilies/icon_reluctantly.gif' ></img>",
+                "text": "Doge",
+                "raw": ":[doge]",
+                "write": "[img]https://cdn.jsdelivr.net/gh/moezx/cdn@3.1.9/img/Sakura/images/smilies/icon_reluctantly.gif[/img]"
+            },
+            {
+                "icon": "<img src='https://cdn.jsdelivr.net/gh/moezx/cdn@3.1.9/img/Sakura/images/smilies/icon_rbq.gif' ></img>",
+                "text": "Doge",
+                "raw": ":[doge]",
+                "write": "[img]https://cdn.jsdelivr.net/gh/moezx/cdn@3.1.9/img/Sakura/images/smilies/icon_rbq.gif[/img]"
+            },
+            {
+                "icon": "<img src='https://cdn.jsdelivr.net/gh/moezx/cdn@3.1.9/img/Sakura/images/smilies/icon_niconiconit.gif' ></img>",
+                "text": "Doge",
+                "raw": ":[doge]",
+                "write": "[img]https://cdn.jsdelivr.net/gh/moezx/cdn@3.1.9/img/Sakura/images/smilies/icon_niconiconit.gif[/img]"
+            },
+            {
+                "icon": "<img src='https://cdn.jsdelivr.net/gh/moezx/cdn@3.1.9/img/Sakura/images/smilies/icon_niconiconi.gif' ></img>",
+                "text": "Doge",
+                "raw": ":[doge]",
+                "write": "[img]https://cdn.jsdelivr.net/gh/moezx/cdn@3.1.9/img/Sakura/images/smilies/icon_niconiconi.gif[/img]"
+            },
+            {
+                "icon": "<img src='https://cdn.jsdelivr.net/gh/moezx/cdn@3.1.9/img/Sakura/images/smilies/icon_naive.gif' ></img>",
+                "text": "Doge",
+                "raw": ":[doge]",
+                "write": "[img]https://cdn.jsdelivr.net/gh/moezx/cdn@3.1.9/img/Sakura/images/smilies/icon_naive.gif[/img]"
+            },
+            {
+                "icon": "<img src='https://cdn.jsdelivr.net/gh/moezx/cdn@3.1.9/img/Sakura/images/smilies/icon_ku.gif' ></img>",
+                "text": "Doge",
+                "raw": ":[doge]",
+                "write": "[img]https://cdn.jsdelivr.net/gh/moezx/cdn@3.1.9/img/Sakura/images/smilies/icon_ku.gif[/img]"
+            },
+            {
+                "icon": "<img src='https://cdn.jsdelivr.net/gh/moezx/cdn@3.1.9/img/Sakura/images/smilies/icon_ku.gif' ></img>",
+                "text": "Doge",
+                "raw": ":[doge]",
+                "write": "[img]https://cdn.jsdelivr.net/gh/moezx/cdn@3.1.9/img/Sakura/images/smilies/icon_ku.gif[/img]"
+            },
+            {
+                "icon": "<img src='https://cdn.jsdelivr.net/gh/moezx/cdn@3.1.9/img/Sakura/images/smilies/icon_ku.gif' ></img>",
+                "text": "Doge",
+                "raw": ":[doge]",
+                "write": "[img]https://cdn.jsdelivr.net/gh/moezx/cdn@3.1.9/img/Sakura/images/smilies/icon_ku.gif[/img]"
+            },
+            {
+                "icon": "<img src='https://cdn.jsdelivr.net/gh/moezx/cdn@3.1.9/img/Sakura/images/smilies/icon_huaji.gif' ></img>",
+                "text": "Doge",
+                "raw": ":[doge]",
+                "write": "[img]https://cdn.jsdelivr.net/gh/moezx/cdn@3.1.9/img/Sakura/images/smilies/icon_huaji.gif[/img]"
+            },
+            {
+                "icon": "<img src='https://cdn.jsdelivr.net/gh/moezx/cdn@3.1.9/img/Sakura/images/smilies/icon_hu.gif' ></img>",
+                "text": "Doge",
+                "raw": ":[doge]",
+                "write": "[img]https://cdn.jsdelivr.net/gh/moezx/cdn@3.1.9/img/Sakura/images/smilies/icon_hu.gif[/img]"
+            },
+            {
+                "icon": "<img src='https://cdn.jsdelivr.net/gh/moezx/cdn@3.1.9/img/Sakura/images/smilies/icon_han.gif' ></img>",
+                "text": "Doge",
+                "raw": ":[doge]",
+                "write": "[img]https://cdn.jsdelivr.net/gh/moezx/cdn@3.1.9/img/Sakura/images/smilies/icon_han.gif[/img]"
+            },
+            {
+                "icon": "<img src='https://cdn.jsdelivr.net/gh/moezx/cdn@3.1.9/img/Sakura/images/smilies/icon_haha.gif' ></img>",
+                "text": "Doge",
+                "raw": ":[doge]",
+                "write": "[img]https://cdn.jsdelivr.net/gh/moezx/cdn@3.1.9/img/Sakura/images/smilies/icon_haha.gif[/img]"
+            },
+            {
+                "icon": "<img src='https://cdn.jsdelivr.net/gh/moezx/cdn@3.1.9/img/Sakura/images/smilies/icon_good.gif' ></img>",
+                "text": "Doge",
+                "raw": ":[doge]",
+                "write": "[img]https://cdn.jsdelivr.net/gh/moezx/cdn@3.1.9/img/Sakura/images/smilies/icon_good.gif[/img]"
+            },
+            {
+                "icon": "<img src='https://cdn.jsdelivr.net/gh/moezx/cdn@3.1.9/img/Sakura/images/smilies/icon_doubt.gif' ></img>",
+                "text": "Doge",
+                "raw": ":[doge]",
+                "write": "[img]https://cdn.jsdelivr.net/gh/moezx/cdn@3.1.9/img/Sakura/images/smilies/icon_doubt.gif[/img]"
+            },
+            {
+                "icon": "<img src='https://cdn.jsdelivr.net/gh/moezx/cdn@3.1.9/img/Sakura/images/smilies/icon_britan.gif' ></img>",
+                "text": "Doge",
+                "raw": ":[doge]",
+                "write": "[img]https://cdn.jsdelivr.net/gh/moezx/cdn@3.1.9/img/Sakura/images/smilies/icon_britan.gif[/img]"
+            },
+            {
+                "icon": "<img src='https://cdn.jsdelivr.net/gh/moezx/cdn@3.1.9/img/Sakura/images/smilies/icon_bbd.gif' ></img>",
+                "text": "Doge",
+                "raw": ":[doge]",
+                "write": "[img]https://cdn.jsdelivr.net/gh/moezx/cdn@3.1.9/img/Sakura/images/smilies/icon_bbd.gif[/img]"
+            },
+            {
+                "icon": "<img src='https://cdn.jsdelivr.net/gh/moezx/cdn@3.1.9/img/Sakura/images/smilies/icon_awesome.gif' ></img>",
+                "text": "Doge",
+                "raw": ":[doge]",
+                "write": "[img]https://cdn.jsdelivr.net/gh/moezx/cdn@3.1.9/img/Sakura/images/smilies/icon_awesome.gif[/img]"
+            },
+            {
+                "icon": "<img src='https://cdn.jsdelivr.net/gh/moezx/cdn@3.1.9/img/Sakura/images/smilies/icon_anger.gif' ></img>",
+                "text": "Doge",
+                "raw": ":[doge]",
+                "write": "[img]https://cdn.jsdelivr.net/gh/moezx/cdn@3.1.9/img/Sakura/images/smilies/icon_anger.gif[/img]"
+            },
+            {
+                "icon": "<img src='https://cdn.jsdelivr.net/gh/moezx/cdn@3.1.9/img/Sakura/images/smilies/icon_aa.gif' ></img>",
+                "text": "Doge",
+                "raw": ":[doge]",
+                "write": "[img]https://cdn.jsdelivr.net/gh/moezx/cdn@3.1.9/img/Sakura/images/smilies/icon_aa.gif[/img]"
+            }
+        ]
+    }
+}
