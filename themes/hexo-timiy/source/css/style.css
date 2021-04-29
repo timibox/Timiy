@@ -1,20 +1,17 @@
 /*!
-Theme Name: Easter
-Theme URI: http://underscores.me/
-Author: Fuzzz
-Author URI: http://codeskin.cn
-Description: 继AKINA之后我的第三款主题，主打轻社交，增强用户体验，设计简洁
+Theme Name: Hexo-Timiy
+Theme URI: https://timiy.cn
+Author: Timiy
+Author URI: https://timiy.cn
+Description: 主打轻社交，增强用户体验，设计简洁
 Version: 1.2.1
 License: GNU General Public License v2 or later
 License URI: LICENSE
-Text Domain: easter
+Text Domain: Timiy
 Tags: 轻社交主题，用户中心，简约
 
 This theme, like WordPress, is licensed under the GPL.
 Use it to make something cool, have fun, and share what you've learned with others.
-
-Easter is based on Underscores https://underscores.me/, (C) 2012-2017 Automattic, Inc.
-Underscores is distributed under the terms of the GNU GPL v2 or later.
 
 Normalizing styles have been helped along thanks to the fine work of
 Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
@@ -979,7 +976,6 @@ object {
 @font-face{
 	font-style:normal;
 	font-family:'eafont';
-	src:url('./assets/webfont/eafont.ttf') format('truetype');
 	}
 
 .moon{

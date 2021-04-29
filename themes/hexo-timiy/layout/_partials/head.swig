@@ -64,17 +64,14 @@
 		<meta property="article:author" content="{{ config.author }}">
 		<meta property="article:published_first" content="{{ config.title }}, {{ url_for(page.path) }}"/>
 	{% endif %}
-	{{ css('css/ea_user') }}
 	{{ css('css/font-awesome.min') }}
 	{{ css('css/hint.min') }}
 	{{ css('css/iconfont') }}
 	{{ css('css/jquery.fancybox.min') }}
-	{{ css('css/layouts') }}
 	{{ css('css/main') }}
 	{{ css('css/mobile') }}
 	{{ css('css/plugin') }}
 	{{css('css/style')}}
-	{{ css('css/allinonecss.min') }}
 	{% if theme.googleAnalytics %}
 		<script async src="https://www.googletagmanager.com/gtag/js?id={{ theme.GA_TRACKING_ID }}"></script>
 		<script>
