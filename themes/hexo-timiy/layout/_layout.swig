@@ -14,5 +14,6 @@
 	{% include '_partials/footer.swig' %}
 	{% include "_partials/javascript.swig" %}
 	</div>
+<script type="text/javascript" src="{{ url_for('/js/console.js') }}"></script>
 </body>
 </html>
