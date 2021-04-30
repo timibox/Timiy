@@ -404,10 +404,6 @@ h1, h2, h3, h4, h5, h6 {
 	clear: both;
 }
 
-p {
-	margin-bottom: 1.5em;
-}
-
 dfn, cite, em, i {
 	font-style: italic;
 }
@@ -460,7 +456,7 @@ body {
 }
 
 hr {
-	background-color: #ccc;
+	background-color: #efefef;
 	border: 0;
 	height: 1px;
 	margin-bottom: 1.5em;
@@ -983,3 +979,48 @@ object {
 		background-image:url("./assets/fonts/moon.svg");
 		background-size:100% 100%;
 	}
+del {
+    color: #ccc;
+}
+/* css 复选框 */
+    input[type=checkbox] {
+        cursor: pointer;
+        position: relative;
+    }
+
+    input[type=checkbox]::after {
+        position: absolute;
+        top: 0;
+        background-color: #fff;
+        color: #fff;
+        width: 15px;
+        height: 15px;
+        display: inline-block;
+        visibility: visible;
+        padding-left: 0px;
+        text-align: center;
+        content: ' ';
+        border-radius: 2px;
+        box-sizing: border-box;
+        border: 1px solid #ddd;
+    }
+
+    input[type=checkbox]:checked::after {
+        content: "";
+        background-color: #037DF3;
+        border-color: #037DF3;
+        background-color: #037DF3;
+    }
+
+    input[type=checkbox]:checked::before {
+            content: '';
+    position: absolute;
+    top: 2px;
+    left: 5px;
+    width: 5px;
+    height: 10px;
+    border: solid white;
+    border-width: 0 2px 2px 0;
+    transform: rotate(45deg);
+    z-index: 1;
+    }

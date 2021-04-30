@@ -3,6 +3,7 @@
 	<style>
 		.content-area {
 			background: #fff;
+			width: 100%;
 		}
 		.post {
 			width: 100%;
@@ -18,7 +19,7 @@
 					</div>
 					<div class="single_meta_inner">
 						<h1>
-							<a href="https://mengx.io/author/1">Mengx</a>
+							<a href="https://mengx.io/author/1">{{ page.title }}</a>
 						</h1>
 						<ul>
 							<li class="single_date">
@@ -43,7 +44,6 @@
 						</ul>
 					</div>
 				</div>
-				<h1 class="single_post_title">{{ page.title }}</h1>
 				<article id="post-5" class="post-5 post type-post status-publish format-aside hentry category-uncategorized post_format-post-format-aside">
 					<div class="single_content">
 						<div class="entry-content">
