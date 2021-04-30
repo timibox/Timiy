@@ -3,22 +3,15 @@
 	<div id="primary" class="content-area grid-content-area">
 		<main id="main" class="site-main">
 			<div id="main-box" class="loop ">
-				{% for post in page.posts %}
-				
-				
-				<article id="post-4374" class="item  post-4374 post type-post status-publish format-standard hentry category-idea" style="display:inline-block">
+				{% for post in page.posts %}	
+				<article class="item post type-post status-publish format-standard hentry category-idea" style="display:inline-block">
 				<div class="loop_ava">
 				{% if theme.author_image %}
-		<a href="/about" class="topic-thumb bg tips-right hint--top" style="background-image: url({{ theme.author_image }});" data-hint="{{ config.author }}" data-bg=" url({{ theme.author_image }})" data-nclazyload="true" data-was-processed="true"></a>
+		<a href="/about" class="topic-thumb bg tips-right hint--top" style="background-image: url(http://api.btstu.cn/sjtx/api.php?lx=c1);" data-hint="http://api.btstu.cn/sjtx/api.php?lx=c1" data-bg=" url(http://api.btstu.cn/sjtx/api.php?lx=c1)" data-nclazyload="true" data-was-processed="true"></a>
 		{% else %}
-		<a href="/about" class="topic-thumb bg tips-right hint--top" style="background-image: url({{ theme.author_image }});" data-hint="{{ config.author }}" data-bg=" url({{ theme.author_image }})" data-nclazyload="true" data-was-processed="true"></a>
+		<a href="/about" class="topic-thumb bg tips-right hint--top" style="background-image: url(http://api.btstu.cn/sjtx/api.php?lx=c1);" data-hint="{{ config.author }}" data-bg=" url(http://api.btstu.cn/sjtx/api.php?lx=c1)" data-nclazyload="true" data-was-processed="true"></a>
 		{% endif %}
 		</div>
-
-										
-									
-
-	
 	<div class="loop-content">
 		<div class="top_meta_inner">
 			<h1 class="entry-title"><a href="{{ url_for(post.path) }}">{{ post.title }}</a></h1>
@@ -33,12 +26,12 @@
 				</span>
 				<time itemprop="datePublished" datetime="2020-09-27T11:04:12+08:00"> - {{ date(post.date, null) }}</time>
 </div>
-			<p>									{% set num = 50 %}
+			<p>						{% set num = 80 %}
 									{% if not post.cover_img %}
-										{% set num = 50 %}
+										{% set num = 80 %}
 									{% endif %}
 									{% if loop.first %}
-										{% set num = 35 %}
+										{% set num = 55 %}
 									{% endif %}
 									{% set content = post.content | striptags %}
 									{% if post.summary %}
@@ -76,9 +69,9 @@ parseInt(100*Math.random());
 		</ul>
 <a class="load_single hint--top" href="{{ url_for(post.path) }}" data-hint="{{ Math.round(strip_html(post.content).length/500) }} READ MORE"><span class="iconfont icon-more-transverse-o"></span></a>
 	</footer>	
-				{% endfor %}
+				
 			</article>
-
+		{% endfor %}
 		</div>
 		<div id="pagination">
 			<div class="post-paging"></div>

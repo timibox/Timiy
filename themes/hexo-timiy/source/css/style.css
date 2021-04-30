@@ -417,7 +417,7 @@ address {
 }
 
 code, kbd, tt, var {
-	font-family: Monaco, Consolas, "Andale Mono", "DejaVu Sans Mono", monospace;
+	font-family: eafont,PingFang SC,Hiragino Sans GB,Microsoft YaHei,STHeiti,WenQuanYi Micro Hei,Helvetica,Arial,sans-serif;
 	font-size: 15px;
 	font-size: 0.9375rem;
 }
@@ -982,6 +982,14 @@ object {
 del {
     color: #ccc;
 }
+
+code {
+    background: #eee; 
+    margin: 0 5px 0 5px;
+    padding: 0 5px 0 5px;
+	font-size: 14px;
+}
+
 /* css 复选框 */
     input[type=checkbox] {
         cursor: pointer;
