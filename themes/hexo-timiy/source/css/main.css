@@ -1109,6 +1109,7 @@ span.new-post i {
 .loop_ava {
   float: left;
   text-align: left;
+  margin-top: 5px;
 }
 
 .loop_ava a,
@@ -1123,10 +1124,11 @@ span.new-post i {
 }
 
 h1.entry-title {
-  font-size: 17px;
-  font-weight: 400;
+  font-size: 22px;
+  font-weight: 600;
   display: inline;
   position: relative;
+  margin-left: 10px;
 }
 
 .entry-title a {
@@ -1135,18 +1137,19 @@ h1.entry-title {
 
 .date_meta {
   color: #aca4ce;
+  margin-left: 60px;
 }
 
 .nickname {
-  font-size: 13px;
+  font-size: 14px;
 }
 
 .date_meta time {
-  font-size: 12px;
+  font-size: 14px;
 }
 
 .loop-content p {
-  font-size: 15px;
+  font-size: 16px;
   color: #747992;
 }
 

@@ -4,8 +4,7 @@ date: 2021-04-30
 url: dybot
 cover_img: https://vkceyugu.cdn.bspapp.com/VKCEYUGU-711098d2-ab98-4280-a2a7-3ddbaf01a2e6/2173416b-fcbb-422a-8901-5f5c65b61374.png
 categories: 
-- [作品发布]
-- [软件分享]
+- 作品开发
 tags:
 - QQ机器人
 - 虎牙

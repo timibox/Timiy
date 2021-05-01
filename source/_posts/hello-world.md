@@ -1,13 +1,11 @@
 ---
 title: Hello word
-comments.valine: 10
+date: 2021-04-29
+url: hexo
 categories: 
-- [Hexo]
-- [技术教程]
+- Hexo
 tags:
 - Hexo
-- 标签
-- 分类
 ---
 
 

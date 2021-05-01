@@ -6,11 +6,11 @@
 				{% for post in page.posts %}	
 				<article class="item post type-post status-publish format-standard hentry category-idea" style="display:inline-block">
 				<div class="loop_ava">
-				{% if theme.author_image %}
-		<a href="/about" class="topic-thumb bg tips-right hint--top" style="background-image: url(http://api.btstu.cn/sjtx/api.php?lx=c1);" data-hint="http://api.btstu.cn/sjtx/api.php?lx=c1" data-bg=" url(http://api.btstu.cn/sjtx/api.php?lx=c1)" data-nclazyload="true" data-was-processed="true"></a>
-		{% else %}
-		<a href="/about" class="topic-thumb bg tips-right hint--top" style="background-image: url(http://api.btstu.cn/sjtx/api.php?lx=c1);" data-hint="{{ config.author }}" data-bg=" url(http://api.btstu.cn/sjtx/api.php?lx=c1)" data-nclazyload="true" data-was-processed="true"></a>
-		{% endif %}
+				{% if post.fenlei %}
+				<a href="/categories/{{ post.fenlei }}" class="topic-thumb bg tips-right hint--top" style="background-image: url(/images/{{ post.fenlei }}.png);" data-hint="{{ post.fenlei }}"></a>
+				{% else %}
+				<a href="/categories" class="topic-thumb bg tips-right hint--top" style="background-image: url(/images/thumbnail.png);" data-hint="未分类"></a>
+				{% endif %}
 		</div>
 	<div class="loop-content">
 		<div class="top_meta_inner">
@@ -19,12 +19,12 @@
 				<span class="nickname">
 				{% if post.categories %}
 				{% for cate in post.categories %}
+				<span class="iconfont icon-folder-o"></span>
 				{{ cate.name }}
-				{% endfor %}
-				未分类
+				{% endfor %}			
 				{% endif %}
 				</span>
-				<time itemprop="datePublished" datetime="2020-09-27T11:04:12+08:00"> - {{ date(post.date, null) }}</time>
+				<time itemprop="datePublished" datetime="2020-09-27T11:04:12+08:00"> - <span class="iconfont icon-time-o"></span>{{ date(post.date, null) }}</time>
 </div>
 			<p>						{% set num = 80 %}
 									{% if not post.cover_img %}
@@ -56,18 +56,20 @@
 
 	<footer class="entry-footer"><ul class="loop_meta">
 <li class="count_comment">
-<span class="iconfont icon-mark"></span>9</li>
-			<li class="count_view">
-<span class="iconfont icon-attention"></span>998</li>
-			<li class="count_like">
-<span class="iconfont icon-appreciate"></span>2</li>
+<span class="iconfont icon-tag-o"></span>
+{% if post.categories %}
+{% for tag in post.tags %}
+<a href="{{ url_for(tag.path) }}" rel="tag">#{{ tag.name }}</a>
+{% endfor %}
+{% endif %}
+</li>
 			<li class="count_image">
 <span class="iconfont icon-album"></span><script type="text/javascript">
 parseInt(100*Math.random());
 </script></li>
 			
 		</ul>
-<a class="load_single hint--top" href="{{ url_for(post.path) }}" data-hint="{{ Math.round(strip_html(post.content).length/500) }} READ MORE"><span class="iconfont icon-more-transverse-o"></span></a>
+<a class="load_single hint--top" href="{{ url_for(post.path) }}" data-hint="阅读时间 {{ Math.round(strip_html(post.content).length/500) }} 分钟"><span class="iconfont icon-more-transverse-o"></span></a>
 	</footer>	
 				
 			</article>
