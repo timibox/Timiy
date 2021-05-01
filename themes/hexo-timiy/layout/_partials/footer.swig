@@ -19,8 +19,7 @@
 	</div>
 </footer>
 <script>
-
-	function showDivFun() {
+function showDivFun() {
 document.getElementById('search').style.display = 'block';
 }
 

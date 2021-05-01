@@ -149,12 +149,4 @@
 			</section>
 		</div>
 	</div>
-	{% if theme.post_toc %}
-		{% include "public/toc.swig" %}
-	{% endif %}
-
-	{% if theme.photoswipe %}
-		{% include "public/photoswipe.swig" %}
-	{% endif %}
-
 {% endmacro %}

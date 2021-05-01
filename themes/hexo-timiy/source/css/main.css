@@ -638,7 +638,7 @@ a.m_go_back {
 }
 
 .left_bar {
-  width: 26%;
+  width: 360px;
   display: inline-block;
   float: left;
   position: relative;

@@ -26,6 +26,7 @@
 
 <script id="scriptLoad" src="{{ url_for('/js/allinone.js') }}" async></script>
 
+
 {# 脚本加载监听 #}
 <script>
     document.getElementById('scriptLoad').addEventListener('load', function () {
@@ -96,3 +97,17 @@
     });
 </script>
 {% endif %}
+
+{# 左侧导航固定 #}
+<script>
+let nav = document.querySelector('.left_bar')
+window.addEventListener('scroll',function(e){
+  if(window.pageYOffset >= 290){
+    nav.style.position = 'fixed'
+    nav.style.top = '20px'
+  }else{
+    nav.style.position = 'relative'
+	nav.style.top = '-60px'
+  }
+})
+</script>

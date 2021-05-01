@@ -7,6 +7,7 @@
 				{% if theme.widgets.about %}
 					{% include 'widget/about.swig' %}
 				{% endif %}
+				{% if not is_post() %}
 				<div class="alteration shadow round" style="background: #fff;">
 				{% if theme.widgets.recent_posts %}
 					{% include 'widget/recent_posts.swig' %}
@@ -15,6 +16,15 @@
 					{% include 'widget/category.swig' %}
 				{% endif %}
 				</div>
+				{% else %}
+				{% if theme.post_toc %}
+				{% include "public/toc.swig" %}
+				{% endif %}
+				{% if theme.photoswipe %}
+				{% include "public/photoswipe.swig" %}
+				{% endif %}				
+				{% endif %}
+				
 			</div>
 			</div>
 		</div>
