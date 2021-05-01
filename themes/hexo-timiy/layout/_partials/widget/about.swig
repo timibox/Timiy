@@ -3,8 +3,7 @@
 	<div class="blog_card">
 		<div class="blog_card_bg" style="background-image:url({{ theme.author_bg }});">
 			<span>
-				<h1>{{ config.title }}</h1>
-				<p>@{{ config.author }}</p>
+				<h1>{{ config.author }}</h1>
 			</span>
 			<img src="{{ theme.author_image }}">
 		</div>

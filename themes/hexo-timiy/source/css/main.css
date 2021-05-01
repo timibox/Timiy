@@ -704,7 +704,7 @@ a.m_go_back {
   font-size: 17px;
   font-weight: 600;
   margin: 0;
-  line-height: 1;
+  margin-left: -5px;
 }
 
 .blog_card_bg p {

@@ -3,13 +3,13 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
-subtitle: ''
-description: ''
-keywords:
-author: John Doe
+title: Timiy
+subtitle: 分享 互助 共赢 为创作而生
+description: Timiy-分享 互助 共赢 为创作而生 https://timiy.cn
+keywords: 专注于产品开发、经验分享相关的问题和看法，还有一些优质软件及游戏和技术分享。
+author: Tiim.杨
 language: zh-CN
-timezone: ''
+timezone: Asia/Shanghai
 
 
 # URL
