@@ -32,20 +32,24 @@
 					</a>
 					<div class="sharebox popover-container">
 						<div class="card inner textcenter">
-							<div class="sharebg" style="background-image: url(https://mengx.io/content/templates/easter/img/top-bg.jpg);"></div>
+							{% if is_post() %}
+							<div class="sharebg" style="background-image: url({{ page.cover_img }});"></div>
+							{% else %}
+							<div class="sharebg" style="background-image: url({{ theme.header_image }});"></div>
+							{% endif %}
 							<ul class="items">
 								{{ title }}
 								<li class="item posturl">
-									<span class="iconfont icon-link-o"></span>URL<input type="text" id="share-shorturl" placeholder="Get Short URL..." value="http://192.168.123.100:4000/2020/09/19/hello-world/index.html"></li>
+									<span class="iconfont icon-link-o"></span>URL<input type="text" id="share-fenxiang" placeholder="Get Short URL..." value="{{ theme.author_url }}{{ url_for(page.path) }}"></li>
 								<li class="item wechatshare">
-									<span class="iconfont icon-weixin"></span>微信扫码分享<p>或手机端扫码查看网页<img src="https://api.qrserver.com/v1/create-qr-code/?size=150x150&amp;data=http://192.168.123.100:4000/2020/09/19/hello-world/index.html">
+									<span class="iconfont icon-weixin"></span>微信扫码分享<p>或手机端扫码查看网页<img src="https://api.qrserver.com/v1/create-qr-code/?size=150x150&amp;data={{ theme.author_url }}{{ url_for(page.path) }}">
 									</p>
 								</li>
 								<li class="item weiboshare">
 									<span class="iconfont icon-weibo"></span>
-									<a target="_blank" href="//service.weibo.com/share/share.php?url={{ url }}&amp;appkey=Hexo&amp;title={{ title }}&amp;pic=https://mengx.io/content/templates/easter/img/top-bg.jpg&amp;ralateUid=&amp;language=zh_cn" rel="nofollow noopener" onclick="window.open(this.href, 'weibo-share', 'width=550,height=335');return false;">微博分享</a>
+									<a target="_blank" href="//service.weibo.com/share/share.php?url={{ url }}&amp;appkey={{ config.title }}&amp;title={{ title }}&amp;pic=https://mengx.io/content/templates/easter/img/top-bg.jpg&amp;ralateUid=&amp;language=zh_cn" rel="nofollow noopener" onclick="window.open(this.href, 'weibo-share', 'width=550,height=335');return false;">微博分享</a>
 									<span class="iconfont icon-QQ"></span>
-									<a target="_blank" href="//connect.qq.com/widget/shareqq/index.html?url=http://192.168.123.100:4000/2020/09/19/hello-world/index.html" rel="nofollow noopener" onclick="window.open(this.href, 'qq-share', 'width=550,height=335');return false;">好友分享</a>
+									<a target="_blank" href="//connect.qq.com/widget/shareqq/index.html?url={{ theme.author_url }}{{ url_for(page.path) }}" rel="nofollow noopener" onclick="window.open(this.href, 'qq-share', 'width=550,height=335');return false;">好友分享</a>
 								</li>
 
 							</ul>

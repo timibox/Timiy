@@ -68,32 +68,6 @@ if (document.querySelector('.toc-bar')) {
     });
 
 
-    tocSwitch.addEventListener('click', function(){
-        var newTocWidth = window.getComputedStyle(tocMain).width.replace("px","")
-
-        window.requestAnimationFrame(function () {
-            if (tocOpen.classList.contains('hide')) {
-                if (document.body.clientWidth >= '768' ) {
-                    tocBar.style.right = -newTocWidth + 'px'
-                } else {
-                    // 隐藏 toc
-                    tocBar.style.top = '100%'
-                }
-                tocClose.classList.add('hide')
-                tocOpen.classList.remove('hide')
-            } else {
-                if (document.body.clientWidth >= '768' ) {
-                    tocBar.style.right = 0
-                } else {
-                    // 显示 toc
-                    tocBar.style.top = 0
-                }
-                tocOpen.classList.add('hide')
-                tocClose.classList.remove('hide')
-            }
-        })
-    });
-
     // 移动设备下，点击关闭书签
     var tocItem = document.querySelectorAll('.toc-link')
     tocItem.forEach(function(toc) {

@@ -15,7 +15,7 @@
 			<div class="single_container">
 				<div class="single_top_meta">
 					<div class="single_ava">
-						<a href="https://mengx.io/author/1"><img src="https://mengx.io/content/templates/easter/img/ava.gif" class="avatar" width="50" height="50"></a>
+						<a href="/author"><img src="{{ theme.author_image }}" class="avatar" width="50" height="50"></a>
 					</div>
 					<div class="single_meta_inner">
 						<h1>
@@ -92,17 +92,15 @@
 										</a>
 										<div class="sharebox popover-container">
 											<div class="card inner textcenter">
-												<div class="sharebg" style="background-image: url(https://mengx.io/content/templates/easter/img/top-bg.jpg);"></div>
+												<div class="sharebg" style="background-image: url({{ page.cover_img }});"></div>
 												<ul class="items">
 													<li class="item posturl">
 														<span class="iconfont icon-link-o"></span>URL<input type="text" id="share-shorturl" placeholder="Get Short URL..." value="{{ url }}"></li>
 													<li class="item wechatshare">
-														<span class="iconfont icon-weixin"></span>微信分享<img src="https://api.qrserver.com/v1/create-qr-code/?size=150x150&amp;data={{ url }}"></li>
+														<span class="iconfont icon-weixin"></span>微信分享<p>或手机端扫码查看网页<img src="https://api.qrserver.com/v1/create-qr-code/?size=150x150&amp;data={{ url }}"></li>
 													<li class="item weiboshare">
 														<span class="iconfont icon-weibo"></span>
-														<a href="//service.weibo.com/share/share.php?url=https://mengx.io/post/23&amp;appkey=你的博客&amp;title=[Emlog主题]Akea 昼夜双版 三栏博客主题&amp;pic=https://mengx.io/content/templates/easter/img/top-bg.jpg&amp;ralateUid=&amp;language=zh_cn" rel="nofollow" onclick="window.open(this.href, 'weibo-share', 'width=550,height=335');return false;">微博分享</a>
-													</li>
-													<li class="item qqshare">
+														<a href="//service.weibo.com/share/share.php?url={{ url }}&amp;appkey={{ config.title }}&amp;title={{ page.title }}&amp;pic={{ page.cover_img }}&amp;ralateUid=&amp;language=zh_cn" rel="nofollow" onclick="window.open(this.href, 'weibo-share', 'width=550,height=335');return false;">微博分享</a>
 														<span class="iconfont icon-QQ"></span>
 														<a href="//connect.qq.com/widget/shareqq/index.html?url={{ url }}" rel="nofollow" onclick="window.open(this.href, 'qq-share', 'width=550,height=335');return false;">好友分享</a>
 													</li>

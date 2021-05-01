@@ -24,7 +24,7 @@
 </script>
 {% endif %}
 
-<script id="scriptLoad" src="{{ url_for('/js/allinone.min.js') }}" async></script>
+<script id="scriptLoad" src="{{ url_for('/js/allinone.js') }}" async></script>
 
 {# 脚本加载监听 #}
 <script>

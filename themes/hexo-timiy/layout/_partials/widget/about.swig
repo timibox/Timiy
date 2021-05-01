@@ -1,9 +1,9 @@
 {# 插件 - 关于 #}
 <div class="home_left_bar_inner shadow">
 	<div class="blog_card">
-		<div class="blog_card_bg" style="background-image:url(https://mengx.io/content/templates/easter/img/infobg.jpg);">
+		<div class="blog_card_bg" style="background-image:url({{ theme.author_bg }});">
 			<span>
-				<h1>{{ title }}</h1>
+				<h1>{{ config.title }}</h1>
 				<p>@{{ config.author }}</p>
 			</span>
 			<img src="{{ theme.author_image }}">

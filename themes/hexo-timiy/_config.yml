@@ -17,7 +17,8 @@ menu:
   # you can add here
 
 # author
-author_image: https://www.ninaner.com/wp-content/uploads/2016/04/10413563_b1991ee881ba5dfa3264a8b717947ee3_170.jpg  # link
+author_image: https://cdn.jsdelivr.net/gh/htmlmi/hexo@main/img/1619891839000.gif  # link
+author_bg: https://cdn.jsdelivr.net/gh/htmlmi/hexo@main/infobg/4.png
 author_bio: 分享 互助 供应
 author_location: ShenZhen
 author_url: https://timiy.cn
