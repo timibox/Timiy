@@ -80,7 +80,7 @@
 										<span class="iconfont icon-attention"></span>677</span>
 								</div>
 								
-								<span id="{{ page.path }}" class="leancloud_visitors" data-flag-title="{{ page.title }}">
+								<span id="/{{ page.path }}" class="leancloud_visitors" data-flag-title="{{ page.title }}">
 								<em class="post-meta-item-text">阅读量 </em>
 								<i class="leancloud-visitors-count">1000000</i>
 								</span>
