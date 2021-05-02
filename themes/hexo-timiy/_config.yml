@@ -2,7 +2,7 @@
 rss:            # link
 favicon: https://i.loli.net/2017/11/26/5a19c0b50432e.png
 blog_logo: https://mengx.io/content/templates/easter/img/ava.gif
-header_image: https://cdn.jsdelivr.net/gh/htmlmi/cdn@latest/2021/04/28/83cf16a1955d74558b4ea5034e0e1559.png
+header_image: https://htmlmi.gitee.io/images/background.jpg
 bio: This is a demo
 post_toc: true
 
