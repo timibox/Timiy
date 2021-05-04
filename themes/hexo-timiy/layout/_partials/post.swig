@@ -15,11 +15,11 @@
 			<div class="single_container">
 				<div class="single_top_meta">
 					<div class="single_ava">
-						<a href="/author"><img src="{{ theme.author_image }}" class="avatar" width="50" height="50"></a>
+						<a href="/author"><img src="/images/{{ page.fenlei }}.png" class="avatar" width="50" height="50"></a>
 					</div>
 					<div class="single_meta_inner">
 						<h1>
-							<a href="https://mengx.io/author/1">{{ page.title }}</a>
+							<a href="/author">{{ page.title }}</a>
 						</h1>
 						<ul>
 							<li class="single_date">
