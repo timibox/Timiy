@@ -9,11 +9,11 @@
 	<div class="site-info">
 		<div class="copyright_content">
 			<li class="item">
-				<a href="#">{{ config.title }}</a>
-				Copyright © 2020</li>
-			<li class="item"></li>
+				<a href="#">Hexo</a>
+				© 2020</li>
 			<div class="load_time">Design By
-				<a href="https://www.htmlmi.com" target="_blank">Timiy</a>
+				<a href="https://timiy.cn" target="_blank">Timiy</a>
+				{% if theme.admin %} - <a href="{{ theme.admin }}" target="_blank">Admin</a>{% else %}{% endif %}
 			</div>
 		</div>
 	</div>

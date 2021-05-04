@@ -3,6 +3,7 @@ title: 虎牙+斗鱼直播 AI智能机器人发布
 date: 2021-04-30
 url: dybot
 cover_img: https://vkceyugu.cdn.bspapp.com/VKCEYUGU-711098d2-ab98-4280-a2a7-3ddbaf01a2e6/2173416b-fcbb-422a-8901-5f5c65b61374.png
+fenlei: 软件开发
 categories: 
 - 作品开发
 tags:
