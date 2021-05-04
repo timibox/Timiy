@@ -1055,7 +1055,14 @@ ul.loop_meta a {
         box-sizing: border-box;
         border: 1px solid #ddd;
     }
-
+@media only screen and (max-width:450px) {
+    input[type=checkbox]::after {
+        position: absolute; 
+        top: -1px;
+        width: 18px;
+        height: 18px;
+    }
+}
     input[type=checkbox]:checked::after {
         content: "";
         background-color: #037DF3;

@@ -660,22 +660,7 @@ ul.other_site_info , .pay_site_info {
 #main_container {
 	padding: 0 6px;
 }
-input[type=checkbox]::after {
-        position: absolute; 
-        top: -1px;
-        background-color: #fff;
-        color: #fff;
-        width: 20px;
-        height: 20px;
-        display: inline-block;
-        visibility: visible;
-        padding-left: 0px;
-        text-align: center;
-        content: ' ';
-        border-radius: 2px;
-        box-sizing: border-box;
-        border: 1px solid #ddd;
-}
+
 .content-area {
 	margin-top: 15px;
 }
