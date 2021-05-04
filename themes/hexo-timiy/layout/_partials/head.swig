@@ -69,9 +69,9 @@
 	{{ css('css/iconfont') }}
 	{{ css('css/jquery.fancybox.min') }}
 	{{ css('css/main') }}
-	{{ css('css/mobile') }}
 	{{ css('css/plugin') }}
 	{{css('css/style')}}
+	{{ css('css/mobile') }}
 	{% if theme.googleAnalytics %}
 		<script async src="https://www.googletagmanager.com/gtag/js?id={{ theme.GA_TRACKING_ID }}"></script>
 		<script>

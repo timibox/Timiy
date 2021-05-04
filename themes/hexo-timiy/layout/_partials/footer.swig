@@ -9,7 +9,7 @@
 	<div class="site-info">
 		<div class="copyright_content">
 			<li class="item">
-				<a href="#">{{ title }}</a>
+				<a href="#">{{ config.title }}</a>
 				Copyright © 2020</li>
 			<li class="item"></li>
 			<div class="load_time">Design By

@@ -4,7 +4,6 @@
 {% if url_for(page.path) === theme.menu.ABOUT+'/index.html' %}
 {% include "_partials/about.swig" %}
 {% else %}
-{% include '_partials/header.swig' %}
 {% endif %}
 {{ template.tpl() }}
 {% endblock %}

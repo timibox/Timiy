@@ -730,6 +730,52 @@ a:hover, a:active {
 	word-wrap: normal !important; /* Many screen reader and browser combinations announce broken words as they would appear visually. */
 }
 
+.site-header-content {
+	display: flex;
+    flex-direction: column;
+    height: 350px;
+    text-align: center;
+    align-items: center;
+    -webkit-box-align: center;
+    -webkit-box-pack: center;
+    -ms-flex-align: center;
+    justify-content: center;
+}
+.site-header-content h1{
+	color: #fff;
+	z-index: 9;
+	margin: 0;
+}
+.site-header-content h2{
+	color: #fff;
+	z-index: 9;
+	margin: 0;
+	font-size: 18px;
+}
+
+.site-header-content span{
+	color: #fff;
+	z-index: 9;
+}
+
+
+@media only screen and (max-width:450px) {
+.site-header-content {
+    height: 180px;
+}
+.site-header-content h1{
+	font-size: 14px;
+	margin-top: -40px;
+}
+.site-header-content h2{
+	font-size: 12px;
+}
+.site-header-content span{
+	line-height: 8px;
+}
+
+}
+
 .screen-reader-text:focus {
 	background-color: #f1f1f1;
 	border-radius: 3px;
@@ -1003,33 +1049,7 @@ ul.loop_meta a {
     font-family: PingFang SC,Hiragino Sans GB,Microsoft YaHei;
 }
 
-.site-header-content {
-    display: flex;
-    flex-direction: column;
-    height: 350px;
-    text-align: center;
-    align-items: center;
-    -webkit-box-align: center;
-    -webkit-box-pack: center;
-    -ms-flex-align: center;
-    justify-content: center;
-}
-.site-header-content h1{
-	color: #fff;
-	z-index: 9;
-	margin: 0;
-}
-.site-header-content h2{
-	color: #fff;
-	z-index: 9;
-	margin: 0;
-	font-size: 18px;
-}
 
-.site-header-content span{
-	color: #fff;
-	z-index: 9;
-}
 
 
 /* css 复选框 */
@@ -1039,8 +1059,8 @@ ul.loop_meta a {
     }
 
     input[type=checkbox]::after {
-        position: absolute;
-        top: 0;
+        position: absolute; 
+        top: -1px;
         background-color: #fff;
         color: #fff;
         width: 15px;
@@ -1054,7 +1074,14 @@ ul.loop_meta a {
         box-sizing: border-box;
         border: 1px solid #ddd;
     }
-
+@media only screen and (max-width:860px) {
+    input[type=checkbox]::after {
+        top: -1px;
+		width: 17px;
+		height: 17px;
+		margin-left: -1px;
+    }
+}
     input[type=checkbox]:checked::after {
         content: "";
         background-color: #037DF3;
@@ -1074,3 +1101,7 @@ ul.loop_meta a {
     transform: rotate(45deg);
     z-index: 1;
     }
+	
+.site-main {
+    background: #fff;
+}	
