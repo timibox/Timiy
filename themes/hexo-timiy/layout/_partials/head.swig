@@ -31,7 +31,7 @@
 	<link rel="preconnect" href="//app-router.leancloud.cn">
 	<link rel="preconnect" href="//9qpuwspm.api.lncld.net">
 	<link rel="preconnect" href="//gravatar.loli.net">
-	<title>{% if title %}{{ title }}{% else %}{{ config.title }}{% endif %}{% if is_home() %}{% if config.subtitle %}-{{ config.subtitle }}{% endif %}{% else %}-{{ config.title }}{% endif %}</title>
+	<title>{% if title %}{{ title }}{% else %}{{ config.title }}{% endif %}{% if is_home() %}{% if config.subtitle %} - {{ config.subtitle }}{% endif %}{% else %} - {{ config.title }}{% endif %}</title>
 	<meta name="HandheldFriendly" content="True"/>
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2"/>
 	<meta name="generator" content="hexo">
