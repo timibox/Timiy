@@ -15,7 +15,7 @@
 			<div class="single_container">
 				<div class="single_top_meta">
 					<div class="single_ava">
-						<a href="/author"><img src="/images/{{ page.fenlei }}.png" class="avatar" width="50" height="50"></a>
+						<a href="/author"><img src="/images/{% if page.fenlei %}{{ page.fenlei }}{% else %}thumbnail{% endif %}.png" class="avatar" width="50" height="50"></a>
 					</div>
 					<div class="single_meta_inner">
 						<h1>
