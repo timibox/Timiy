@@ -7,20 +7,23 @@ bio: This is a demo
 post_toc: true
 
 # Keywords
-keywords: hexo, casper, ghost, theme
+keywords: timiy, hexo, hexo-timiy, theme
 
 # Menu
 menu:
+  QQ机器人: /dybot.html
+  我的宝藏: /tool
+  文章分类: /categories
+  友情链接: /links
   关 于: /about
-  归 档: /archives
-  分 类: /categories
+
   # you can add here
 
 # author
 author_image: https://cdn.jsdelivr.net/gh/htmlmi/hexo@main/img/1619891839000.gif  # link
 author_bg: https://cdn.jsdelivr.net/gh/htmlmi/hexo@main/infobg/4.png
 author_bio: 优质软件 游戏和技术分享
-author_location: ShenZhen
+author_location: 外星
 author_url: https://timiy.cn
 
 # Social Links

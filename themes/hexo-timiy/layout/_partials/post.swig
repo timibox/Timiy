@@ -77,12 +77,12 @@
 
 								<div class="single_inner_views">
 									<span class="count_view">
-										<span class="iconfont icon-attention"></span>677</span>
+										<span class="iconfont icon-attention">
+										<span id="/{{ page.path }}" class="leancloud_visitors" data-flag-title="{{ page.title }}">
+										<i class="leancloud-visitors-count">Loading</i>										
+										</span>
+										</span>
 								</div>
-								
-								<span id="/{{ page.path }}" class="leancloud_visitors" data-flag-title="{{ page.title }}">
-								<em class="post-meta-item-text">阅读量 </em>
-								<i class="leancloud-visitors-count">1000000</i>
 								</span>
 
 								<div class="share">

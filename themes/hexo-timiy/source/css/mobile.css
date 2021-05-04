@@ -516,7 +516,9 @@ a.login_button {
 .site-branding , .user_header {
 	height: 50px;
 }
-
+.hint--top:after {
+    margin-left: -25px;
+}
 .logo_here {
 	line-height:  50px;
 	height: 50px;
