@@ -731,6 +731,7 @@ a:hover, a:active {
 }
 
 .site-header-content {
+	display: flex;
     flex-direction: column;
     height: 350px;
     text-align: center;
@@ -755,6 +756,23 @@ a:hover, a:active {
 .site-header-content span{
 	color: #fff;
 	z-index: 9;
+}
+
+
+@media only screen and (max-width:450px) {
+.site-header-content {
+    height: 180px;
+}
+.site-header-content h1{
+	font-size: 14px;
+}
+.site-header-content h2{
+	font-size: 12px;
+}
+.site-header-content span{
+	line-height: 8px;
+}
+
 }
 
 .screen-reader-text:focus {

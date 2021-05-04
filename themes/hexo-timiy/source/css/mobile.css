@@ -446,7 +446,11 @@ a.m_go_back i {
 }
 
 .cat-branding {
-	
+	text-align: center;
+}
+
+.site-nav-right {
+    display: none;
 }
 
 .content-area {
@@ -462,6 +466,13 @@ a.m_go_back i {
     white-space: nowrap;
 	float: none;
 	width: 100%;
+	margin-top: 10px;
+}
+
+.cat_menu ul li a {
+    font-size: 16px;
+    height: 50px;
+    line-height: 50px;
 }
 
 .cat_menu ul::-webkit-scrollbar {
@@ -619,10 +630,6 @@ ul.other_site_info , .pay_site_info {
 .top_tips_main .inner {
 	padding: 0 10px;
 	line-height: 35px;
-}
-
-.site-header-content {
-    height: 180px;
 }
 	
 .top_tips_main img {
