@@ -665,8 +665,8 @@ input[type=checkbox]::after {
         top: -1px;
         background-color: #fff;
         color: #fff;
-        width: 16px;
-        height: 16px;
+        width: 20px;
+        height: 20px;
         display: inline-block;
         visibility: visible;
         padding-left: 0px;
