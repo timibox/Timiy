@@ -730,6 +730,33 @@ a:hover, a:active {
 	word-wrap: normal !important; /* Many screen reader and browser combinations announce broken words as they would appear visually. */
 }
 
+.site-header-content {
+    flex-direction: column;
+    height: 350px;
+    text-align: center;
+    align-items: center;
+    -webkit-box-align: center;
+    -webkit-box-pack: center;
+    -ms-flex-align: center;
+    justify-content: center;
+}
+.site-header-content h1{
+	color: #fff;
+	z-index: 9;
+	margin: 0;
+}
+.site-header-content h2{
+	color: #fff;
+	z-index: 9;
+	margin: 0;
+	font-size: 18px;
+}
+
+.site-header-content span{
+	color: #fff;
+	z-index: 9;
+}
+
 .screen-reader-text:focus {
 	background-color: #f1f1f1;
 	border-radius: 3px;
@@ -1003,33 +1030,7 @@ ul.loop_meta a {
     font-family: PingFang SC,Hiragino Sans GB,Microsoft YaHei;
 }
 
-.site-header-content {
-    display: flex;
-    flex-direction: column;
-    height: 350px;
-    text-align: center;
-    align-items: center;
-    -webkit-box-align: center;
-    -webkit-box-pack: center;
-    -ms-flex-align: center;
-    justify-content: center;
-}
-.site-header-content h1{
-	color: #fff;
-	z-index: 9;
-	margin: 0;
-}
-.site-header-content h2{
-	color: #fff;
-	z-index: 9;
-	margin: 0;
-	font-size: 18px;
-}
 
-.site-header-content span{
-	color: #fff;
-	z-index: 9;
-}
 
 
 /* css 复选框 */
@@ -1074,3 +1075,7 @@ ul.loop_meta a {
     transform: rotate(45deg);
     z-index: 1;
     }
+	
+.site-main {
+    background: #fff;
+}	

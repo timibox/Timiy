@@ -620,6 +620,10 @@ ul.other_site_info , .pay_site_info {
 	padding: 0 10px;
 	line-height: 35px;
 }
+
+.site-header-content {
+    height: 180px;
+}
 	
 .top_tips_main img {
 	margin-right: 10px;
@@ -654,9 +658,12 @@ ul.other_site_info , .pay_site_info {
 }
 	
 #main_container {
-	padding: 0 12px;
+	padding: 0 6px;
 }
-	
+input[type=checkbox] {
+        cursor: pointer;
+        position: relative;
+    }
 .content-area {
 	margin-top: 15px;
 }
@@ -664,7 +671,16 @@ ul.other_site_info , .pay_site_info {
 .loop_ava {
 	display: none;
 }
-	
+
+.date_meta {
+    color: #aca4ce;
+    margin-left: 0px;
+}
+
+h1.entry-title {
+    margin-left: 0px;
+}
+
 .loop-content {
 	margin-left: 0;
 }
@@ -1104,6 +1120,7 @@ footer#colophon {
 
 .copyright_content {
 	font-size: 13px;
+	text-align: center;
 }
 
 .user_show_left {

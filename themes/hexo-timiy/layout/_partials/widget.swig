@@ -5,7 +5,7 @@
 			<div class="read-next-feed">
 			<div class="left_bar">
 				{% if theme.widgets.about %}
-					{% include 'widget/about.swig' %}
+				{% include 'widget/about.swig' %}
 				{% endif %}
 				{% if not is_post() %}
 				<div class="alteration shadow round" style="background: #fff;">

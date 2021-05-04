@@ -61,14 +61,12 @@
 {% endif %}
 
 {# Valine 评论 #}
-{% if is_post() and theme.comment %}
+{% if theme.comment %}
 <script id="valineScript" src='//unpkg.com/valine/dist/Valine.min.js' async></script>
 <script>
     document.getElementById('valineScript').addEventListener("load", function() {
         new Valine({
             el: '#comment' ,
-            verify: {{ theme.valine.verify }},
-            notify: {{ theme.valine.notify }},
             appId: '{{ theme.valine.appId }}',
             appKey: '{{ theme.valine.appKey }}',
             placeholder: '{{ theme.valine.placeholder }}',
