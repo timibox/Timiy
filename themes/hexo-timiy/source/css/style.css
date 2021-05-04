@@ -765,6 +765,7 @@ a:hover, a:active {
 }
 .site-header-content h1{
 	font-size: 14px;
+	margin-top: -40px;
 }
 .site-header-content h2{
 	font-size: 12px;
