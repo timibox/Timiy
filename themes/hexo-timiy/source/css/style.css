@@ -1040,8 +1040,8 @@ ul.loop_meta a {
     }
 
     input[type=checkbox]::after {
-       /* position: absolute; */
-        top: 0;
+        position: absolute; 
+        top: -1px;
         background-color: #fff;
         color: #fff;
         width: 15px;
