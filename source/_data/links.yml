@@ -1,5 +1,12 @@
-friendslinks :
-- nickname: 名称测试1
+me :
+- name: 名称测试1
+  url: https://timiy.cn
+  avatar: aaa
+  info: bbb
+
+#友情链接
+to :
+- name: 名称测试1
   site: https://timiy.cn
   avatar: aaa
   info: bbb
