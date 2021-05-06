@@ -1,4 +1,4 @@
-name: Hexo Deploy
+name: Hexo 部署
 
 on:
   push:
@@ -11,7 +11,7 @@ jobs:
     if: github.event.repository.owner.id == github.event.sender.id
 
     steps:
-      - name: Checkout source
+      - name: 检查源码
         uses: actions/checkout@v2
         with:
           ref: master
@@ -21,7 +21,7 @@ jobs:
         with:
           node-version: '12'
 
-      - name: Setup Hexo
+      - name: 设置Hexo
         env:
           ACTION_DEPLOY_KEY: ${{ secrets.HEXO_DEPLOY_KEY }}
         run: |
@@ -35,7 +35,7 @@ jobs:
           npm install hexo-cli -g
           npm install
 
-      - name: Deploy
+      - name: 部署
         run: |
           hexo clean
           hexo deploy
