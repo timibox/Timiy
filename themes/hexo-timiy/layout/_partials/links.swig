@@ -1,42 +1,58 @@
-{% macro tpl() %}
-	<header class="page-header" style="background-image: url(&quot;https://www.ninaner.com/wp-content/themes/Ninan/img/default.jpg&quot;);" data-bg=" url(https://www.ninaner.com/wp-content/themes/Ninan/img/default.jpg)" data-nclazyload="true" data-was-processed="true"><meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
-		<div class="page_meta">
-			<h1 class="entry-title">友情链接</h1>
+<section class="links-main">
+	<div class="items">
+		<div class="grouping-title">
+			<h3>
+				<i class="iconfont icon-dialog-o"></i>Me</h3>
 		</div>
-	</header>
-	<div id="site-main" class="site-main outer" role="main">
-		<div class="inner">
-			<div class="post-feed">
-				<article class="post-card post no-image custom-page">
-					<article class="post-full no-image">
-						<section class="post-full-content page-full-content">
-							<div id="photoswipe" class="markdown-body">
-
-								{% for link in site.data.links.friendslinks  %}
-									{{ link.nickname }}
-
-								{% endfor %}
-
-
-							</div>
-						</section>
-					</article>
-				</article>
-			</div>
-		</div>
-		<section id="comments" class="comments">
-			<div class="comments-main">
-				{% if theme.comment %}
-					<div class="inner">
-						<div id="comment"></div>
+		<div class="link-cats">
+			{% for link in site.data.links.me %}
+				<div class="item">
+					<div class="link-avatar">
+						<a href="{{ link.url }}" target="_blank"><img alt="" src="{{ link.avatar }}" class="avatar avatar-80 photo" height="80" width="80"></a>
 					</div>
-				{% endif %}
-			</div>
-		</section>
-	</div>
-
-	{% if theme.photoswipe %}
-		{% include "public/photoswipe.swig" %}
-	{% endif %}
-
-{% endmacro %}
+					<div class="info">
+						<h3 class="name">
+							<a href="{{ link.url }}" target="_blank">{{ link.name }}<i class="iconfont icon-Raidobox-selectedRai"></i>
+							</a>
+						</h3>
+						<div class="meta button">
+							<a href="{{ link.url }}" target="_blank">{{ link.url }}</a>
+						</div>
+					</div>
+					<div class="description">{{ link.info }}</div>
+				</div>
+			{% endfor %}
+		</div>
+		<div class="grouping-title">
+			<h3>
+				<i class="iconfont icon-dialog-o"></i>友邻网站</h3>
+		</div>
+		<div class="link-cats">
+			{% for link in site.data.links.to %}
+				<div class="item">
+					<div class="link-avatar">
+						<a href="{{ link.url }}" target="_blank"><img alt="" src="{{ link.avatar }}" class="avatar avatar-80 photo" height="80" width="80"></a>
+					</div>
+					<div class="info">
+						<h3 class="name">
+							<a href="{{ link.url }}" target="_blank">{{ link.name }}<i class="iconfont icon-Raidobox-selectedRai"></i>
+							</a>
+						</h3>
+						<div class="meta button">
+							<a href="{{ link.url }}" target="_blank">{{ link.url }}</a>
+						</div>
+					</div>
+					<div class="description">{{ link.info }}</div>
+				</div>
+			{% endfor %}
+		</div>
+		<div class="grouping-title">
+			<h3>
+				<i class="iconfont icon-dialog-o"></i>添加友情链接:</h3>
+			<p>留言添加网站信息样例：</p>
+			<pre class="language-bash" data-language="bash"><code class="language-bash">-name: Timiy
+  url: https://timiy.cn
+  info: 一杯茶 一包烟 一行代码写一天
+  avatar: https://timiy.cn/images/logo.jpg</code></pre>
+		</div>
+	</section>

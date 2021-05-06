@@ -1300,7 +1300,7 @@ a.load_single {
 .single_container .post,
 .single_container .topic,
 .single_container .notify {
-  padding: 20px 40px;
+  padding: 20px 25px;
   padding-top: 0;
 }
 
@@ -1311,7 +1311,7 @@ a.load_single {
 .single_top_meta {
   width: 100%;
   position: relative;
-  padding: 20px 40px;
+  padding: 20px 25px;
   border-bottom: 1px solid #eff6fd;
   display: inline-block;
 }
@@ -1661,7 +1661,7 @@ span.postnext {
 
 section.links-main {
   background: #fff;
-  padding: 40px;
+  padding: 0px;
   display: inline-block;
   width: 100%;
 }

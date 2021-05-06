@@ -1,0 +1,52 @@
+menu :
+- title: 优质推荐
+  desc: 经验分享 优质软件推荐
+  id: youzhi
+
+- title: 文档记录
+  desc: 日常工作笔记及文档
+  id: jilu
+
+
+youzhi :
+-   name: Hexo
+    info: Hexo建站经验
+    link: /categories/Hexo
+    icon: /images/HEXO.png
+
+-   name: 作品发布
+    info: 发布自己开发的作品
+    link: /categories/作品开发
+    icon: /images/软件开发.png
+
+-   name: 经验分享
+    info: 分享经验以及教程
+    link: /categories/经验分享
+    icon: /images/经验分享.png
+
+-   name: 游戏推荐
+    info: 推荐各种白嫖游戏
+    link: /categories/游戏推荐
+    icon: /images/游戏推荐.png
+
+-   name: 优质推荐
+    info: 各种优质软件分享
+    link: /categories/优质推荐
+    icon: /images/优质推荐.png
+
+
+jilu :
+-   name: 笔记
+    info: 日常工作笔记
+    link: /categories/笔记
+    icon: /images/笔记.png
+
+-   name: 文档存档
+    info: 文档存档
+    link: /categories/文档
+    icon: /images/文档.png
+
+-   name: 美图
+    info: 精美壁纸美图分享
+    link: /categories/美图
+    icon: /images/美图.png   

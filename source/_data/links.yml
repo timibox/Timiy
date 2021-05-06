@@ -1,27 +1,17 @@
 me :
-- name: 名称测试1
+- name: Timiy
+  info: 分享 互助 共赢 - 为创造而生
   url: https://timiy.cn
-  avatar: aaa
-  info: bbb
+  avatar: /images/logo.jpg
 
 #友情链接
 to :
-- name: 名称测试1
-  site: https://timiy.cn
-  avatar: aaa
-  info: bbb
+- name: 创意工坊
+  info: 最专业的游戏MOD免费下载网站
+  url: https://www.modsfan.com
+  avatar: /images/dava.png
 
-- nickname: 名称测试2
-  site: https://timiy.cn
-  avatar: aaa
-  info: bbb
-
-- nickname: 名称测试3
-  site: https://timiy.cn
-  avatar: aaa
-  info: bbb
-
-- nickname: 名称测试4
-  site: https://timiy.cn
-  avatar: aaa
-  info: bbb
+- name: GTAMOD
+  info: 专注于GTA5游戏MOD下载交流
+  url: https://www.gtamod.cn
+  avatar: /images/dava.png
