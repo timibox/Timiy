@@ -2,13 +2,6 @@ menu :
 - title: 优质推荐
   desc: 经验分享 优质软件推荐
   id: youzhi
-
-- title: 文档记录
-  desc: 日常工作笔记及文档
-  id: jilu
-
-
-youzhi :
 -   name: Hexo
     info: Hexo建站经验
     link: /categories/Hexo
@@ -34,8 +27,9 @@ youzhi :
     link: /categories/优质推荐
     icon: /images/优质推荐.png
 
-
-jilu :
+- title: 文档记录
+  desc: 日常工作笔记及文档
+  id: jilu
 -   name: 笔记
     info: 日常工作笔记
     link: /categories/笔记
