@@ -1,9 +1,8 @@
 {# 插件 - 侧边栏 #}
 <aside id="secondary" class="widget-area shadow">
 	<div class="widget">
-		<h3 class="widget-title">{{ theme.temesinfo.title }}</h3>
-		<a target="_blank" width="248" height="165" href="{{ theme.temesinfo.url }}" title="{{ theme.temesinfo.title }}">
-			<img width="248" height="165" src="{{ theme.temesinfo.img }}"></a>
+		<a target="_blank" width="248" height="230" href="{{ theme.temesinfo.url }}" title="{{ theme.temesinfo.title }}">
+			<img style="width:248px; height:230px;" src="{{ theme.temesinfo.img }}"></a>
 	</div>
 	<div class="widget">
 		<h3 class="widget-title">热门推荐</h3>
