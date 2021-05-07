@@ -4570,6 +4570,7 @@ input.ea_reg_eatest {
   font-weight: 400;
   position: relative;
   padding-left: 20px;
+  margin-bottom: 0px;
   display: inline-block;
   width: 100%;
 }
