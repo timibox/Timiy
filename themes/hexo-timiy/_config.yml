@@ -51,9 +51,9 @@ widgets:
   # This is a simple theme, I think 3 is enough.
 
 temesinfo:
-  title: Timiy QQ机器人
+  title: BRIEF 极简轻社交主题
   url: https://timiy.cn
-  img: https://www.ninaner.com/wp-content/uploads/2017/11/19219463253870876.jpg
+  img: https://gitee.com/htmlmi/htmlmi/raw/master/images/themes.png
   fenleibg: https://gitee.com/htmlmi/htmlmi/raw/master/images/flbg.png
 
 adlist:
