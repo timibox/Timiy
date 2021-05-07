@@ -13,11 +13,9 @@
 			<div class="search_tags">
 				<div class="search_tags_list" style="line-height:30px">
 					<h1>最热关键词</h1>
-					<a href="#" title="akea Tag" class="item">Hexo</a>
-					<a href="#" title="emlog Tag" class="item">我是大帅逼</a>
-					<a href="#" title="默认 Tag" class="item">默认</a>
-					<a href="#" title="EASTER Tag" class="item">Steam</a>
-					<a href="#" title="PHP Tag" class="item">PHP</a>
+					{% for key,link in theme.Search %}
+					<a href="{{ link }}" title="{{ key }}" class="item">{{ key }}</a>
+					{% endfor %}
 				</div>
 				<div id="local-search-result"></div>
 			</div>

@@ -1,7 +1,7 @@
 {# 页面 #}
 {% extends '_layout.swig' %}
 {% block content %}
-	<header class="page-header" style="background-image: url(&quot;https://www.ninaner.com/wp-content/themes/Ninan/img/default.jpg&quot;);">
+	<header class="page-header" style="background-image: url({{ theme.temesinfo.fenleibg }});">
 		<div class="page_meta">
 			<h1 class="entry-title">{{ title }}</h1>
 		</div>

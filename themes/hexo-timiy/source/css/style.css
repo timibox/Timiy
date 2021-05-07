@@ -1536,3 +1536,178 @@ i.leancloud-visitors-count {
 .flink#article-container .site-card:hover .info .title {
 	color: #ff5722
 }
+
+
+div#cover {
+    background: url(https://gitee.com/htmlmi/htmlmi/raw/master/images/headbg.jpg);
+    background-position: center;
+    background-size: cover;
+	animation: animatedBackground 20s linear infinite;
+	-moz-animation: animatedBackground 20s linear infinite;
+	-o-animation: animatedBackground 20s linear infinite;
+}
+
+@-webkit-keyframes animatedBackground {
+	0% { background-position:0 0px ; }
+	10% { background-position:0 -100px ; }
+	20% { background-position:0 -200px ; }
+	30% { background-position:0 -300px ; }
+	40% { background-position:0 -400px ; }
+	50% {background-position: 0 -500px ; }
+	60% {background-position:0 -400px ; }
+	70% {background-position:0 -300px ; }
+	80% {background-position:0 -200px ; }
+	90% {background-position: 0 -100px ; }
+	100% {background-position: 0 0px ; }
+}
+@-moz-keyframes animatedBackground {
+	0% { background-position:0 0px ; }
+	10% { background-position:0 -100px ; }
+	20% { background-position:0 -200px ; }
+	30% { background-position:0 -300px ; }
+	40% { background-position:0 -400px ; }
+	50% {background-position: 0 -500px ; }
+	60% {background-position:0 -400px ; }
+	70% {background-position:0 -300px ; }
+	80% {background-position:0 -200px ; }
+	90% {background-position: 0 -100px ; }
+	100% {background-position: 0 0px ; }
+}
+@-o-keyframes animatedBackground {
+	0% { background-position:0 0px ; }
+	10% { background-position:0 -100px ; }
+	20% { background-position:0 -200px ; }
+	30% { background-position:0 -300px ; }
+	40% { background-position:0 -400px ; }
+	50% {background-position: 0 -500px ; }
+	60% {background-position:0 -400px ; }
+	70% {background-position:0 -300px ; }
+	80% {background-position:0 -200px ; }
+	90% {background-position: 0 -100px ; }
+	100% {background-position: 0 0px ; }
+}
+@keyframes animatedBackground {
+	0% { background-position:0 0px ; }
+	10% { background-position:0 -100px ; }
+	20% { background-position:0 -200px ; }
+	30% { background-position:0 -300px ; }
+	40% { background-position:0 -400px ; }
+	50% {background-position: 0 -500px ; }
+	60% {background-position:0 -400px ; }
+	70% {background-position:0 -300px ; }
+	80% {background-position:0 -200px ; }
+	90% {background-position: 0 -100px ; }
+	100% {background-position: 0 0px ; }
+}
+
+@media only screen and (max-width:1900px) {
+
+	@-webkit-keyframes animatedBackground {
+		0% { background-position:0 0px ; }
+		15% { background-position:0 -100px ; }
+		35% { background-position:0 -200px ; }
+		50% {background-position: 0 -300px ; }
+		65% {background-position:0 -200px ; }
+		85% {background-position:0 -100px ; }
+		100% {background-position: 0 0px ; }
+	}
+	@-moz-keyframes animatedBackground {
+		0% { background-position:0 0px ; }
+		15% { background-position:0 -100px ; }
+		35% { background-position:0 -200px ; }
+		50% {background-position: 0 -300px ; }
+		65% {background-position:0 -200px ; }
+		85% {background-position:0 -100px ; }
+		100% {background-position: 0 0px ; }
+	}
+	@-o-keyframes animatedBackground {
+		0% { background-position:0 0px ; }
+		15% { background-position:0 -100px ; }
+		35% { background-position:0 -200px ; }
+		50% {background-position: 0 -300px ; }
+		65% {background-position:0 -200px ; }
+		85% {background-position:0 -100px ; }
+		100% {background-position: 0 0px ; }
+	}
+	@keyframes animatedBackground {
+		0% { background-position:0 0px ; }
+		15% { background-position:0 -100px ; }
+		35% { background-position:0 -200px ; }
+		50% {background-position: 0 -300px ; }
+		65% {background-position:0 -200px ; }
+		85% {background-position:0 -100px ; }
+		100% {background-position: 0 0px ; }
+	}
+
+}
+
+@media only screen and (max-width:1440px) {
+
+	@-webkit-keyframes animatedBackground {
+		0% { background-position:0 0px ; }
+		15% { background-position:0 -66px ; }
+		35% { background-position:0 -135px ; }
+		50% {background-position: 0 -200px ; }
+		65% {background-position:0 -135px ; }
+		85% {background-position:0 -66px ; }
+		100% {background-position: 0 0px ; }
+	}
+	@-moz-keyframes animatedBackground {
+		0% { background-position:0 0px ; }
+		15% { background-position:0 -66px ; }
+		35% { background-position:0 -135px ; }
+		50% {background-position: 0 -200px ; }
+		65% {background-position:0 -135px ; }
+		85% {background-position:0 -66px ; }
+		100% {background-position: 0 0px ; }
+	}
+	@-o-keyframes animatedBackground {
+		0% { background-position:0 0px ; }
+		15% { background-position:0 -66px ; }
+		35% { background-position:0 -135px ; }
+		50% {background-position: 0 -200px ; }
+		65% {background-position:0 -135px ; }
+		85% {background-position:0 -66px ; }
+		100% {background-position: 0 0px ; }
+	}
+	@keyframes animatedBackground {
+		0% { background-position:0 0px ; }
+		15% { background-position:0 -66px ; }
+		35% { background-position:0 -135px ; }
+		50% {background-position: 0 -200px ; }
+		65% {background-position:0 -135px ; }
+		85% {background-position:0 -66px ; }
+		100% {background-position: 0 0px ; }
+	}
+
+}
+
+
+
+@media only screen and (max-width:1280px) {
+	div#cover {
+		background: url(https://gitee.com/htmlmi/htmlmi/raw/master/images/headbg.jpg);
+		background-position: center -50px;
+		background-size: cover;
+		animation: animatedBackground 0s linear infinite;
+		-moz-animation: animatedBackground 0s linear infinite;
+		-o-animation: animatedBackground 0s linear infinite;
+	}
+}
+
+@media only screen and (max-width:1080px) {
+	div#cover {
+		background: url(https://gitee.com/htmlmi/htmlmi/raw/master/images/headbg.jpg);
+		background-position: center;
+		background-size: cover;
+		animation: animatedBackground 0s linear infinite;
+		-moz-animation: animatedBackground 0s linear infinite;
+		-o-animation: animatedBackground 0s linear infinite;
+	}
+}
+
+@media only screen and (max-width:680px) {
+	.site-header-content {
+		height: 250px;
+	}
+}

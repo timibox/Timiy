@@ -2,7 +2,7 @@
 rss:            # link
 favicon: https://timiy.cn/images/logo.jpg
 blog_logo: https://mengx.io/content/templates/easter/img/ava.gif
-header_image: https://htmlmi.gitee.io/images/background.jpg
+header_image: https://gitee.com/htmlmi/htmlmi/raw/master/images/headbg.jpg
 bio: This is a demo
 post_toc: true
 
@@ -21,7 +21,7 @@ menu:
 
 # author
 author_image: https://cdn.jsdelivr.net/gh/htmlmi/hexo@main/img/1619891839000.gif  # link
-author_bg: https://cdn.jsdelivr.net/gh/htmlmi/hexo@main/infobg/4.png
+author_bg: https://gitee.com/htmlmi/htmlmi/raw/master/images/360-200.png
 author_bio: 优质软件 游戏和技术分享
 author_location: 外 星
 author_url: https://timiy.cn
@@ -37,6 +37,7 @@ social:
   youtube: 
   # You only can use that I have added, I will keep adding
 
+
 # Footer Links
 admin: https://hexo.timiy.workers.dev/hpp/admin/login
 
@@ -49,20 +50,22 @@ widgets:
   sidebar: true #右边栏
   # This is a simple theme, I think 3 is enough.
 
-sidebar:
-  themeinfo: Timiy QQ机器人
-  themeimg: https://www.ninaner.com/wp-content/uploads/2017/11/19219463253870876.jpg
-  AD1title: 广告1标题
-  AD1IMG: https://img.iplaysoft.com/axdres/sidebar/jianying/jianying_v1.png
-  AD1URL: https://www.baidu.com
-  #-----------
-  AD2title: 广告1标题
-  AD2IMG: https://img.iplaysoft.com/axdres/sidebar/jianying/jianying_v1.png
-  AD2URL: https://www.baidu.com
-  #-----------
-  AD3title: 广告1标题
-  AD3IMG: https://img.iplaysoft.com/axdres/sidebar/jianying/jianying_v1.png
-  AD3URL: https://www.baidu.com
+temesinfo:
+  title: Timiy QQ机器人
+  url: https://timiy.cn
+  img: https://www.ninaner.com/wp-content/uploads/2017/11/19219463253870876.jpg
+  fenleibg: https://gitee.com/htmlmi/htmlmi/raw/master/images/flbg.png
+
+adlist:
+- title: 广告1标题
+  img: https://img.iplaysoft.com/axdres/sidebar/jianying/jianying_v1.png
+  url: https://timiy.cn
+- title: 广告1标题
+  img: https://img.iplaysoft.com/axdres/sidebar/jianying/jianying_v1.png
+  url: https://timiy.cn
+- title: 广告1标题
+  img: https://img.iplaysoft.com/axdres/sidebar/jianying/jianying_v1.png
+  url: https://timiy.cn
 
 
 # Post page fload header
@@ -80,6 +83,12 @@ lazyload: false
 # Local Search
 local_search: true
 
+#配置热搜词
+Search:
+  Hexo: /categories/Hexo
+  机器人: /tags/QQ机器人
+  天际线: /tags/天际线
+  创意工坊: https://www.modsfan.com
 # Comment
 # https://valine.js.org
 comment: true
