@@ -20,7 +20,7 @@ menu:
   # you can add here
 
 # author
-author_image: https://cdn.jsdelivr.net/gh/htmlmi/hexo@main/img/1619891839000.gif  # link
+author_image: https://gitee.com/htmlmi/htmlmi/raw/master//images/tool/tou.gif  # link
 author_bg: https://gitee.com/htmlmi/htmlmi/raw/master/images/360-200-bg.png
 author_bio: 优质软件 游戏和技术分享
 author_location: 外 星
@@ -28,10 +28,10 @@ author_url: https://timiy.cn
 
 # Social Links
 social:
-  weibo: https://weibo.com/xzhih
-  github: https://github.com/xzhih
-  twitter: https://twitter.com
-  facebook: https://facebook
+  weibo: 
+  github: 
+  twitter: 
+  facebook: 
   telegram:
   bilibili: 
   youtube: 
