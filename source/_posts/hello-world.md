@@ -2,45 +2,43 @@
 title: Hello word
 date: 2021-04-29
 url: hexo
+cover_img: https://gitee.com/htmlmi/htmlmi/raw/master//images/tool/brief.png
+fenlei: HEXO
 categories: 
 - Hexo
 tags:
 - Hexo
 ---
 
+Hello 我的网站诞生了，它使用的是Hexo开发，部署再Github、使用github action 持续部署、使用 BRIEF 极简化轻社交主题作为前端渲染 后端使用的是`HexoPlusPlus后台`
 
-Welcome to [Hexo](https://hexo.io/)! This is your very first post. Check [documentation](https://hexo.io/docs/) for more info. If you get any problems when using Hexo, you can find the answer in [troubleshooting](https://hexo.io/docs/troubleshooting.html) or you can ask me on [GitHub](https://github.com/hexojs/hexo/issues).
+### 快速安装：
 
-# Quick Start
-
-## Create a new post
-
-
-
-More info: [Writing](https://hexo.io/docs/writing.html)
-
-## Run server
+安装hexo
 
 ``` bash
-$ hexo server22222222222
+$ npm install hexo-cli -g
 ```
 
-More info: [Server](https://hexo.io/docs/server.html)
-
-## Generate static files
+初始化博客
 
 ``` bash
-$ hexo generate
+$ hexo init blog
 ```
 
-More info: [Generating](https://hexo.io/docs/generating.html)
-
-# Quick Star得得得t
-
-## Deploy to remote sites
+进入博客目录
 
 ``` bash
-$ hexo deploy
+$ cd blog
 ```
 
-More info: [Deployment](https://hexo.io/docs/one-command-deployment.html)
+执行安装
+
+``` bash
+$ npm install
+```
+
+运行Hexo
+``` bash
+$ hexo server
+```
