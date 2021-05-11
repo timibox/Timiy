@@ -1,7 +1,7 @@
 ---
 title: Hexo保姆及教程 学不会退款
 date: 2021-05-11
-url: variable
+url: hexocourse
 cover_img: https://gitee.com/htmlmi/htmlmi/raw/master/images/tool/hexoboke.png
 fenlei: HEXO
 categories: 
