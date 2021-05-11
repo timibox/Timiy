@@ -103,8 +103,8 @@ valine:
 
 # PWA
 # you need create a manifest.json file in hexo's source folder
-manifest: true
-service_workers: true
+manifest: false
+service_workers: false
 
 navColor: '3c484e'
 
