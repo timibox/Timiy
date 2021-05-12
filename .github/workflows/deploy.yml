@@ -16,12 +16,12 @@ jobs:
         with:
           ref: master
 
-      - name: Setup Node.js
+      - name: 安装 Node.js
         uses: actions/setup-node@v1
         with:
           node-version: '12'
 
-      - name: 设置Hexo
+      - name: 设置 Hexo
         env:
           ACTION_DEPLOY_KEY: ${{ secrets.HEXO_DEPLOY_KEY }}
         run: |

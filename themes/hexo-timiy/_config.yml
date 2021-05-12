@@ -95,7 +95,7 @@ comment: true
 valine:
   appId: F8OGTiSSAtJq9fJvy1wc48pY-gzGzoHsz
   appKey: 2UfTVp32sete676LdfOgPqzm
-  placeholder: Just go go
+  placeholder: 请遵守国家相关法律 谢谢
   pageSize: 10
   avatar: mm
   visitor: true

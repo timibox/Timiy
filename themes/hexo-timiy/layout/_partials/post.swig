@@ -149,4 +149,7 @@
 			</section>
 		</div>
 	</div>
+{% if theme.photoswipe %}
+	{% include "public/photoswipe.swig" %}
+{% endif %}	
 {% endmacro %}

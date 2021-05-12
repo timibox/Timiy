@@ -33,6 +33,4 @@
 		</section>
 	</div>
 {% endblock %}
-{% if theme.photoswipe %}
-	{% include "_partials/public/photoswipe.swig" %}
-{% endif %}
+

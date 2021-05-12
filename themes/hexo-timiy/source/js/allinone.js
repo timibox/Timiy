@@ -982,19 +982,22 @@ var openPhotoSwipe = function (pswpElement, postImg, index) {
     var options = {
         zoomEl: true,
         arrowEl: true,
+		tapToCloseEl: false,
         shareEl: false,
         preloaderEl: false,
         captionEl: false,
         history: false,
+		closeOnScroll: false,
+		clickToCloseNonZoomable: true,
+		bgOpacity: 0.9,
+		closeOnVerticalDrag: false,
         // showHideOpacity: true,
         showAnimationDuration: 0,
         hideAnimationDuration: 500,
         index: parseInt(index, 10),
         getThumbBoundsFn: function (idx) {
             var pageYScroll = window.pageYOffset || document.documentElement.scrollTop;
-
-            var rect = postImg[idx].getBoundingClientRect();
-            
+            var rect = postImg[idx].getBoundingClientRect();            
             return {
                 x: rect.left,
                 y: rect.top + pageYScroll,

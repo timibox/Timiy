@@ -24,17 +24,13 @@
 </script>
 {% endif %}
 
+
 <script id="scriptLoad" src="{{ url_for('/js/allinone.js') }}" async></script>
 
 
 {# 脚本加载监听 #}
 <script>
     document.getElementById('scriptLoad').addEventListener('load', function () {
-        {# 图片懒加载 #}
-        {% if !is_post() || (is_post() && theme.lazyload) %}
-            var bLazy = new Blazy();
-        {% endif %}
-
         {# 文章页浮动顶栏 #}
         {% if is_post() && theme.floadheader %}
         {% include "public/fload-header.swig" %}
@@ -51,6 +47,8 @@
         {% endif %}
     })
 </script>
+
+
 
 {# 相册 #}
 {% if (is_post() || is_page()) and theme.photoswipe %}

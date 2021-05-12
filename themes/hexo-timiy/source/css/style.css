@@ -1711,3 +1711,11 @@ div#cover {
 		height: 250px;
 	}
 }
+
+.post-img {
+    cursor: pointer;
+}
+
+.pswp img {
+    cursor: pointer;
+}

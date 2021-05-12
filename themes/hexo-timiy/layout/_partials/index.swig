@@ -44,7 +44,7 @@
 		<div class="feature_img">
 		<a href="{{ url_for(post.path) }}">
 		{% if post.cover_img %}
-		<img src="{{ post.cover_img }}" data-src="{{ post.cover_img }}" data-nclazyload="true" class="loaded" data-was-processed="true">
+		<img src="{{ post.cover_img }}" data-src="{{ post.cover_img }}" class="loaded" data-was-processed="true">
 		{% else %}
 		<img src="/images/thumbnail.png">
 		{% endif %}
