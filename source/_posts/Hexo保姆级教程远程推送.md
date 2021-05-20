@@ -17,7 +17,7 @@ tags:
 
 首先 推送到Github 需要用到 Git 软件 上一节课有下载地址 其次推荐使用 SSH 传输
 
-如果你会如何把源码远程推送到Github仓库的话 可以跳过第一小节课程直接点我看 [通过 GitHub Actions 自动部署](#Actions)
+如果你会如何把源码远程推送到Github仓库的话 可以跳过第一小节课程直接点我看 [通过 GitHub Actions 自动部署](&#35;Actions)
 
 ### **远程仓库SSH KEY设置**
 
@@ -108,7 +108,7 @@ Name：你的 Github 用户名  Location：你的 仓库SSH地址 填写完成 �
 
 
 
-### 通过 GitHub Actions 自动部署{#Actions}
+### 通过 GitHub Actions 自动部署{&#35;Actions}
 
 接下来就是教你如何通过 GitHub Actions 来自动部署 ，当我们把文章推送到仓库后 Github 自动帮我们部署静态页面
 
