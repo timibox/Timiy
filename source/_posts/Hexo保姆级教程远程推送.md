@@ -17,7 +17,7 @@ tags:
 
 首先 推送到Github 需要用到 Git 软件 上一节课有下载地址 其次推荐使用 SSH 传输
 
-如果你会如何把源码远程推送到Github仓库的话 可以跳过第一小节课程直接点我看 [通过 GitHub Actions 自动部署](#通过 GitHub Actions 自动部署)
+如果你会如何把源码远程推送到Github仓库的话 可以跳过第一小节课程直接点我看 [通过 GitHub Actions 自动部署](&#35;通过 GitHub Actions 自动部署)
 
 ### **远程仓库SSH KEY设置**
 
